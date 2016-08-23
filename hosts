@@ -1,0 +1,16 @@
+[all:vars]
+ansible_ssh_user=root
+glusterfs_repo="http://mirrors.aliyun.com/centos/7/storage/$basearch/gluster-3.8/"
+heketi_repo="https://copr-be.cloud.fedoraproject.org/results/lpabon/Heketi/epel-7-$basearch/"
+heketi_key="/root/.ssh/id_rsa"
+heketi_db_path="/var/lib/heketi/db/"
+
+[heketi-server]
+10.173.32.104
+
+[glusterfs-node]
+10.173.32.104 disk_list="/dev/vdc"
+10.173.32.103 disk_list="/dev/vdc"
+10.173.32.102 disk_list="/dev/vdc"
+10.173.32.101 disk_list="/dev/vdc"
+
