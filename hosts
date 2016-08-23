@@ -6,11 +6,11 @@ heketi_key="/root/.ssh/id_rsa"
 heketi_db_path="/var/lib/heketi/db/"
 
 [heketi-server]
-10.173.32.104
+10.x.x.x
 
 [glusterfs-node]
-10.173.32.104 disk_list="/dev/vdc"
-10.173.32.103 disk_list="/dev/vdc"
-10.173.32.102 disk_list="/dev/vdc"
-10.173.32.101 disk_list="/dev/vdc"
+10.x.x.x disk_list="/dev/vdc"
+10.x.x.x disk_list="/dev/vdc"
+10.x.x.x disk_list="/dev/vdc"
+10.x.x.x disk_list="/dev/vdc"
 
