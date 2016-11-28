@@ -1,0 +1,5 @@
+[glusterfs-node]
+baseurl = http://mirrors.aliyun.com/centos/7/storage/$basearch/gluster-3.8/
+gpgcheck = 0
+enable=1
+name = add glusterfs server repo
